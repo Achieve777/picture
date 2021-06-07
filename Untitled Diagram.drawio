@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T06:03:56.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="Mb7gbcQMUYn9a9VozQzY" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-07T06:32:00.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="dSuv6fT3howItfunxqzH" version="14.7.6" type="github">
   <diagram id="ntWypxr66R623RXx5sm8" name="Page-1">
     <mxGraphModel dx="652" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,13 +16,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-2" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ax0g_Lcv7hbXgT3HPlpm-3" target="Ax0g_Lcv7hbXgT3HPlpm-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-3" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ax0g_Lcv7hbXgT3HPlpm-4" target="Ax0g_Lcv7hbXgT3HPlpm-1">
           <mxGeometry relative="1" as="geometry">
@@ -33,7 +33,49 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-4" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="160" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-9" value="角色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-11" value="菜单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-14" value="权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-15" value="粒度控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-16" value="热更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-17" value="归类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-18" value="限流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-19" value="鉴权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-20" value="限流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="440" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-23" value="insight 前台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="585" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-24" value="insight 后台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="585" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-25" value="药品供应商中台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="585" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-26" value="etc." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="585" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
