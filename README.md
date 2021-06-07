@@ -1,2 +1,2 @@
 # picture
-作为markdown图床使用
+作为各种图床使用
