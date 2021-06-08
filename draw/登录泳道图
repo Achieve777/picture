@@ -1,40 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T09:20:53.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="FD0epp2MXVtq4EMGy-iW" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T10:40:39.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="f759a9Ww93YHrFhpzfu1" version="14.7.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="818" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="818" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YpYpNIDVVG2a4GM3DtTL-19" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;登录泳道图&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="180" y="504" width="430" height="480" as="geometry" />
+        <mxCell id="YpYpNIDVVG2a4GM3DtTL-19" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;权限泳道图&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="504" width="560" height="500" as="geometry" />
         </mxCell>
         <mxCell id="YpYpNIDVVG2a4GM3DtTL-20" value="用户" style="swimlane;html=1;startSize=20;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-19">
-          <mxGeometry y="20" width="140" height="460" as="geometry" />
+          <mxGeometry y="20" width="140" height="480" as="geometry" />
         </mxCell>
         <mxCell id="YpYpNIDVVG2a4GM3DtTL-23" value="登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-20">
-          <mxGeometry x="30" y="35" width="80" height="40" as="geometry" />
+          <mxGeometry x="30" y="55" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YpYpNIDVVG2a4GM3DtTL-24" value="登录失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-20">
           <mxGeometry x="30" y="390" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YpYpNIDVVG2a4GM3DtTL-21" value="Up2U" style="swimlane;html=1;startSize=20;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-19">
-          <mxGeometry x="140" y="20" width="140" height="460" as="geometry" />
+          <mxGeometry x="140" y="20" width="140" height="480" as="geometry" />
         </mxCell>
         <mxCell id="YpYpNIDVVG2a4GM3DtTL-4" value="鉴权" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-21">
-          <mxGeometry x="30" y="25" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YpYpNIDVVG2a4GM3DtTL-22" value="权限中台" style="swimlane;html=1;startSize=20;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-19">
-          <mxGeometry x="280" y="20" width="150" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="YpYpNIDVVG2a4GM3DtTL-11" value="获取角色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-22">
-          <mxGeometry x="35" y="35" width="80" height="40" as="geometry" />
+          <mxGeometry x="30" y="45" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YpYpNIDVVG2a4GM3DtTL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YpYpNIDVVG2a4GM3DtTL-19" source="YpYpNIDVVG2a4GM3DtTL-23" target="YpYpNIDVVG2a4GM3DtTL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YpYpNIDVVG2a4GM3DtTL-26" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YpYpNIDVVG2a4GM3DtTL-19" source="YpYpNIDVVG2a4GM3DtTL-4" target="YpYpNIDVVG2a4GM3DtTL-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YpYpNIDVVG2a4GM3DtTL-22" value="权限中台" style="swimlane;html=1;startSize=20;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-19">
+          <mxGeometry x="280" y="20" width="280" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="YpYpNIDVVG2a4GM3DtTL-27" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YpYpNIDVVG2a4GM3DtTL-19" source="YpYpNIDVVG2a4GM3DtTL-4" target="YpYpNIDVVG2a4GM3DtTL-24">
+        <mxCell id="YpYpNIDVVG2a4GM3DtTL-35" value="OpenAPI" style="swimlane;html=1;startSize=20;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-22">
+          <mxGeometry y="20" width="140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="YpYpNIDVVG2a4GM3DtTL-28" value="获取角色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-35">
+          <mxGeometry x="30" y="35" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YpYpNIDVVG2a4GM3DtTL-37" value="管理后台" style="swimlane;html=1;startSize=20;" vertex="1" parent="YpYpNIDVVG2a4GM3DtTL-22">
+          <mxGeometry x="140" y="20" width="140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="YpYpNIDVVG2a4GM3DtTL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YpYpNIDVVG2a4GM3DtTL-19" source="YpYpNIDVVG2a4GM3DtTL-4" target="YpYpNIDVVG2a4GM3DtTL-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
