@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T14:15:47.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41" etag="_bQi5gaPAyVbhsa9T1jz" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T06:02:52.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="NHiSoS7v773w9QbscdzD" version="14.7.6" type="github">
   <diagram id="ntWypxr66R623RXx5sm8" name="Page-1">
-    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-11" value="菜单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="500" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-14" value="权限" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-14" value="接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="500" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ax0g_Lcv7hbXgT3HPlpm-15" value="粒度控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
